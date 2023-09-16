@@ -88,11 +88,11 @@ app.UseHttpsRedirection();
 
 app.UseRouting(); // This middleware is required for routing.
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+// if (app.Environment.IsDevelopment())
+// {
+//     app.UseSwagger();
+//     app.UseSwaggerUI();
+// }
 
 app.UseAuthentication(); // Enable authentication before authorization.
 
